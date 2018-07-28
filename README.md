@@ -35,7 +35,19 @@ Capturing desktop and streaming it to NDS
     </ul>
 </ul>
 
-<h2 align="center">How to make WIFI connection with NDS (it's not that obvious):</h2>
-  
+<h2 align="center">How to make WIFI hotspot that NDS can connect (it's not that obvious):</h2>
+
+<ul>
+<li>in Ubuntu open "Network Connections" and click "add new"</li>
+<li>go to the "Wi-Fi security" - NDS supports only WEP security (so remember, it's dangerous to beacon that poorly secured network all the time, use this hotspot only when playing with your NDS) - select "WEP 40/128 bit key (Hex or ASCII)" </li>
+ <li> select some random 5 character (only digits) password </li>
+ <li> in "Wi-Fi" tab select "Mode" to "Hotspot" </li>
+ <li> save it </li>
+ <li> open "Network" </li>
+ <li> click "Connecto to a hidden network" </li>
+ <li> select network that you've just created (by default its name will be "hotspot")
+ <li> you're done, if you were previously connected with another network via wifi you'll be disconnected</li>
+ <li> now you can connect to this network through your NDS </li>
+</ul>
 
   
