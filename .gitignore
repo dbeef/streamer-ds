@@ -5,3 +5,4 @@ desktop-client/*.bmp
 desktop-client/*.h
 desktop-client/*.s
 desktop-client/*.xwd
+*.swp
