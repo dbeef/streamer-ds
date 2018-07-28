@@ -70,8 +70,8 @@ Capturing desktop and streaming it to NDS
  <ul>
 <li> You could do it, I even created one version that you can access on this video:</li>
 <li>https://www.youtube.com/watch?v=WR8Y4Iro9t0</li>
-<li> But it's almost no use because I can't use multiple threads on NDS so capturing input will occure every frame - that means it will happen every ~0.3 second - so it's basically garbage.</li>
+<li> ...but it's almost no use because I can't use multiple threads on NDS so capturing input will occure every frame - that means it will happen every ~0.3 second - so it's basically garbage.</li>
 <li> If you're interested only in capturing key input (without the video part), I created another program:</li>
- <li>https://www.youtube.com/watch?v=WR8Y4Iro9t0</li> 
+ <li>https://github.com/dbeef/streamer-ds</li> 
  </ul>
  </ul>
