@@ -68,7 +68,7 @@ Capturing desktop and streaming it to NDS
 
 <p align="center">
 <img src="https://github.com/dbeef/streamer-ds/blob/master/readme/all_parameters_500.png" alt="Efficiency"
- width="240" height="340">
+ width="2500" height="200">
 
 <h2 align="center">FAQ</h2>
 
