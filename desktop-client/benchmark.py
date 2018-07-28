@@ -1,9 +1,10 @@
-import time
 import ctypes
 import os
+import time
+from subprocess import call
+
 import PIL
 from PIL import Image
-from subprocess import call
 from PIL import Image
 
 base_width = 256
@@ -71,3 +72,4 @@ if __name__ == '__main__':
     call(["grit", "resized_image.bmp"])
     print("Grit time: " + str(time.time() - timestamp_grit))
     print("Time of generating file with C lib: " + str(time.time() - timestamp_total))
+
