@@ -66,7 +66,7 @@ Capturing desktop and streaming it to NDS
 <h2 align="center">Performance:</h2>
 <p> Well... as it's only sending lz77 compressed bitmaps through the network, you won't be suprised that for a 2004 portable console that much of bytes will be a shock therapy. On average it's somewhere between 10-20 kB per 256px frame and 5-10 per 128px frame. Every frame must be decompressed on NDS (it has a dedicated hardware for that so it's not that bad in this task) and that's the thing that takes most of the time (around 2/3 of frame time). I tried sending non-compressed bitmaps but it took around 80kB per each and it took even more time (this time the WiFi capabilities of the NDS were the bottleneck). </p>
 
-<p align="center">
+<p align="center"> Click to see details
 <img src="https://github.com/dbeef/streamer-ds/blob/master/readme/all_parameters_500.png" alt="Efficiency"
  width="2500" height="200">
 
