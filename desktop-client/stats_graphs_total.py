@@ -2,8 +2,6 @@
 # https://plot.ly/python/line-charts/
 import numpy as np
 import plotly
-import plotly.plotly as py
-import plotly.graph_objs as go
 
 frames = 500
 
@@ -13,24 +11,32 @@ packet_times = np.fromfile("packet_times")
 decompress_times = np.fromfile("decompress_times")
 screenshot_times = np.fromfile("screenshot_times")
 
-labels = ['Packet sending', 'Decompressing', 'Screenshotting']
+import plotly.plotly as py
+import plotly.graph_objs as go
 
-colors = ['rgb(0,255,0)', 'rgb(255,0,0)', 'rgb(0,0,255)']
+y_temp = []
+for i in range(0, frames):
+    value = packet_times[i] + decompress_times[i] + screenshot_times[i]
+    y_temp.append(value)
+
+labels = ['Total frame time']
+
+colors = ['rgb(0,255,0)']
 
 mode_size = [8, 8, 12, 8]
 line_size = [2, 2, 4, 2]
 
-y_data = [packet_times[0:frames], decompress_times[0:frames], screenshot_times[0:frames]]
+y_data = [packet_times[0:frames]]
 
 x_temp = []
 for i in range(0, frames):
     x_temp.append(i)
 
-x_data = [x_temp, x_temp, x_temp]
+x_data = [x_temp]
 
 traces = []
 
-for i in range(0, 3):
+for i in range(0, 1):
     traces.append(go.Scatter(
         x=x_data[i],
         y=y_data[i],
@@ -120,4 +126,4 @@ annotations.append(dict(xref='paper', yref='paper', x=0.5, y=-0.1,
 layout['annotations'] = annotations
 
 fig = go.Figure(data=traces, layout=layout)
-py.plot(fig, filename='stats_time_3_values')
+py.plot(fig, filename='stats_time_total')
