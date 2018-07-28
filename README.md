@@ -16,6 +16,7 @@ Capturing desktop and streaming it to NDS
 
 <h2 align="center">Dependencies</h2>
 <ul>
+ <li>linux</li>
 <li>DevkitPro, easiest way to download it is through pacman: https://devkitpro.org/wiki/Getting_Started</li>
 </ul>
 
