@@ -1,0 +1,7 @@
+nintendo-server/build/
+nintendo-server/cmake-build-debug/
+.idea/
+desktop-client/*.bmp
+desktop-client/*.h
+desktop-client/*.s
+desktop-client/*.xwd

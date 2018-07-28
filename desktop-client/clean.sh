@@ -1,0 +1,1 @@
+rm -f *.bmp *.h *.s *.xwd *.so
