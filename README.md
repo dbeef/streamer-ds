@@ -9,7 +9,6 @@ Capturing desktop and streaming it to NDS
 
 
 <ul>
-<li>https://www.youtube.com/watch?v=WR8Y4Iro9t0</li>
 <li>https://www.youtube.com/watch?v=ESSFMSbR2Kw</li>
 <li>https://www.youtube.com/watch?v=Z8DLfSR5GKQ</li>
 </ul>
@@ -64,4 +63,15 @@ Capturing desktop and streaming it to NDS
  <li> now you can connect to this network through your NDS </li>
 </ul>
 
-  
+<h2 align="center">FAQ</h2>
+
+<ul>
+<li>Can I control my desktop through this app?</li>
+ <ul>
+<li> You could do it, I even created one version that you can access on this video:</li>
+<li>https://www.youtube.com/watch?v=WR8Y4Iro9t0</li>
+<li> But it's almost no use because I can't use multiple threads on NDS so capturing input will occure every frame - that means it will happen every ~0.3 second - so it's basically garbage.</li>
+<li> If you're interested only in capturing key input (without the video part), I created another program:</li>
+ <li>https://www.youtube.com/watch?v=WR8Y4Iro9t0</li> 
+ </ul>
+ </ul>
