@@ -20,7 +20,21 @@ Capturing desktop and streaming it to NDS
 <li>DevkitPro, easiest way to download it is through pacman: https://devkitpro.org/wiki/Getting_Started</li>
 </ul>
 
-<h2 align="center">How it works:</h2>
+
+<h2 align="center">Usage</h2>
+
+<ul>
+ 
+ <li> create hotspot on your laptop </li>
+ <li> run .nds file on your NDS </li>
+ <li> connect to your hotspot on your NDS via the .nds file </li>
+ <li> run the python script: desktop_client.py </li> 
+ 
+ 
+</ul>
+
+
+<h2 align="center">How it works</h2>
 
 <ul>
 <li>NDS opens port 8080, python script connects PC to it, then:</li>
