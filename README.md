@@ -44,7 +44,7 @@ Capturing desktop and streaming it to NDS
  <li> in "Wi-Fi" tab select "Mode" to "Hotspot" </li>
  <li> save it </li>
  <li> open "Network" </li>
- <li> click "Connecto to a hidden network" </li>
+ <li> click "Connec to to a hidden network" </li>
  <li> select network that you've just created (by default its name will be "hotspot")
  <li> you're done, if you were previously connected with another network via wifi you'll be disconnected</li>
  <li> now you can connect to this network through your NDS </li>
