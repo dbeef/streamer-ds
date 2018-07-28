@@ -57,11 +57,16 @@ Capturing desktop and streaming it to NDS
  <li> in "Wi-Fi" tab select "Mode" to "Hotspot" </li>
  <li> save it </li>
  <li> open "Network" </li>
- <li> click "Connec to to a hidden network" </li>
+ <li> click "Connect to to a hidden network" </li>
  <li> select network that you've just created (by default its name will be "hotspot")
  <li> you're done, if you were previously connected with another network via wifi you'll be disconnected</li>
  <li> now you can connect to this network through your NDS </li>
 </ul>
+
+<h2 align="center">Performance:</h2>
+<p> Well... as it's only sending lz77 compressed bitmaps through the network, you won't be suprised that for a 2004 portable console that much of bytes will be a shock therapy. On average it's somewhere between 10-20 kB per 256px frame and 5-10 per 128px frame. Every frame must be decompressed on NDS (it has a dedicated hardware for that so it's not that bad in this task) and that's the thing that takes most of the time (around 2/3 of frame time)</p>
+
+<p> TODO Charts </p>
 
 <h2 align="center">FAQ</h2>
 
