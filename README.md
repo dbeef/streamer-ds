@@ -86,3 +86,5 @@ Capturing desktop and streaming it to NDS
  <li>https://github.com/dbeef/pc-controller-ds</li> 
  </ul>
  </ul>
+
+<a href="https://gbatemp.net/threads/streaming-pc-desktop-to-nds.512965/"> GBAtemp thread </a>
